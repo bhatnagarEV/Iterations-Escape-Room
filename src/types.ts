@@ -55,6 +55,7 @@ export interface GeneratedChallenge {
 }
 
 export interface RoomSession {
+  roomVersion: string;
   classCode: string;
   studentNames: string[];
   seedText: string;

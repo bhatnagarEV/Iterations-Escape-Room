@@ -1,6 +1,7 @@
 import { iterationsLocks } from '../challenges/iterations';
 import type { GeneratedChallenge, RoomSession } from '../types';
 import { createSeededRng, hashSeed, normalizeSeedPart } from './rng';
+import { ROOM_VERSION } from './roomVersion';
 
 export function buildSeedText(classCode: string, studentNames: string[]): string {
   const normalizedClassCode = normalizeSeedPart(classCode);
@@ -36,6 +37,7 @@ export function generateRoom(classCode: string, studentNames: string[]): RoomSes
     });
 
   return {
+    roomVersion: ROOM_VERSION,
     classCode: classCode.trim(),
     studentNames: studentNames.map((name) => name.trim()).filter(Boolean),
     seedText,

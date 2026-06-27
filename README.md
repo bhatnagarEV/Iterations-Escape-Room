@@ -31,6 +31,8 @@ Teacher mode is available by adding `?teacher=iterations-key` to the app URL.
 
 Teachers can enter a class code and student names to regenerate that team's exact room, preview the selected challenges, view answers and explanations, and print the answer key.
 
+If the challenge bank changes, the app version is bumped so older saved student rooms are not resumed against a newer teacher answer key.
+
 ## Development
 
 ```bash
