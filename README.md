@@ -11,7 +11,7 @@ This room focuses on CS Awesome 2 lessons 2.7-2.12:
 - 2.11 Nested Iteration
 - 2.12 Informal Runtime Analysis of Loops
 
-The first increment includes 15 locks with two starter variants per lock. The final five locks are designed to be more challenging mixed-skill problems.
+The current bank includes 15 locks with 12 variants per lock, for 180 total challenge variants. The final five locks are designed to be more challenging mixed-skill problems.
 
 ## Student Flow
 
