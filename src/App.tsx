@@ -65,7 +65,7 @@ function App() {
   const [savedRoom, setSavedRoom] = useState<RoomSession | null>(null);
   const [teacherRoom, setTeacherRoom] = useState<RoomSession | null>(null);
   const [feedback, setFeedback] = useState<Feedback>(null);
-  const isTeacherMode = new URLSearchParams(window.location.search).get('teacher') === '1';
+  const isTeacherMode = new URLSearchParams(window.location.search).get('teacher') === 'iterations-key';
 
   useEffect(() => {
     setSavedRoom(loadSavedRoom());

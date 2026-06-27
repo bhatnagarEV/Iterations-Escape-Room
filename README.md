@@ -27,7 +27,7 @@ The first increment includes 15 locks with two starter variants per lock. The fi
 
 ## Teacher Mode
 
-Teacher mode is available by adding `?teacher=1` to the app URL.
+Teacher mode is available by adding `?teacher=iterations-key` to the app URL.
 
 Teachers can enter a class code and student names to regenerate that team's exact room, preview the selected challenges, view answers and explanations, and print the answer key.
 
